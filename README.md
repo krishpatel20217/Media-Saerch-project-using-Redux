@@ -1,16 +1,56 @@
-# React + Vite
+# Media Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern media search application built with React, Redux Toolkit, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search photos using the Unsplash API
+* Search videos using the Pexels API
+* Save media items to a personal collection
+* Remove individual items from the collection
+* Clear the entire collection
+* State management using Redux Toolkit
+* Client-side routing with React Router
+* Responsive and clean user interface
+* Toast notifications for user actions
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Redux Toolkit
+* React Router DOM
+* Tailwind CSS
+* Axios
+* React Toastify
+* Unsplash API
+* Pexels API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone <repository-url>
+cd media-search-app
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file and add:
+
+```env
+VITE_UNSPLASH_KEY=your_unsplash_api_key
+VITE_PEXELS_KEY=your_pexels_api_key
+```
+
+## Future Enhancements
+
+* GIF search integration
+* Infinite scrolling
+* Download media functionality
+* Search history
+* Dark/Light mode
+* Advanced filtering options
+
+```
+```
